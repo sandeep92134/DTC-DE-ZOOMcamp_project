@@ -3,7 +3,7 @@ version: 2
 
 sources:
   - name: production
-    database: capstone-project-379718
+    database: dtc-de-myzoomcamps23
     schema: capstone_covid_data
 
     tables:
