@@ -11,7 +11,7 @@
 with covid_data as (
     select *, 
     from {{ ref('stg_covid_ger') }}
-    where (location = 'Germany') and (date is not null) 
+    where (location = 'India') and (date is not null) 
 
 ) 
 

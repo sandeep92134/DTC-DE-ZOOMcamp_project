@@ -59,7 +59,7 @@ select
 
 
 from covid_data
-where location = 'Germany'
+where location = 'India'
 
 {% if var('is_test_run', default=false) %}
 

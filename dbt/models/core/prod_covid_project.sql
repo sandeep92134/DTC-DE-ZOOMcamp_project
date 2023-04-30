@@ -13,7 +13,7 @@
 with covid_data as (
     select *, 
     from {{ ref('stg_covid_project') }}
-    --where (country is not null) and (continent is not null) and (date is not null) 
+    where (country is not null) and (continent is not null) and (date is not null) 
 
 ) 
 
