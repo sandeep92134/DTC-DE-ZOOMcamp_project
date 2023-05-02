@@ -13,11 +13,26 @@ My dataset is publicly available and provided by [Our World in Data](https://git
 For this project I decided to use the following tools:
 
 - Prefect - for orchestration; <br>
+
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20prefect%201.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20prefect%201.1.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20prefect%202.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20prefect%202.1.png)
+
 - Terraform - as Infrastructure-as-Code (IaC) tool; <br>
 - Google Compute Engine - as a virtual machine; <br>
 - Google Cloud Storage (GCS) - for storage as Data Lake; <br>
 - Google BigQuery - for the project Data Warehouse; <br>
 - dbt - for the transformation of raw data in refined data; <br>
+
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%201.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%202.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%203.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%204.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%205.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%206.png)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/for%20project%20dbt%207.png)
+
 - Google Looker studio - for visualizations. <br>
 
 I built a data pipeline that pulls Corona data daily from GitHub, loads it into Google Cloud Storage using Prefect, 
