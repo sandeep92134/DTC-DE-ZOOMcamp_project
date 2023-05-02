@@ -48,7 +48,7 @@ Furthermore, I am interested in the vaccination rate in a worldwide comparison a
 
 ## Pipeline
 
-![alt text](remaining)
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/pipeline.png)
 
 ## Structure of the Repo
 - dbt: all directories, .yml, .scl files, etc. for the transformations in dbt
