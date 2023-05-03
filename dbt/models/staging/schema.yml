@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: staging
-    database: dtc-de-myzoomcamps23
+    database: your project_id or your table name in bigquery
     schema: capstone_covid_data
 
     tables:

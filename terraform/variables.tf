@@ -4,7 +4,7 @@ locals {
 
 variable "project" {
   description = "Your GCP Project ID"
-  default = "dtc-de-myzoomcamps23"
+  default = "Your GCP Project ID" # set u r gcp cloud project_id here
   type = string
 }
 

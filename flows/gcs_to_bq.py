@@ -29,11 +29,11 @@ def transform(path: Path) -> pd.DataFrame:
 def write_bq(df: pd.DataFrame) -> None:
     """Write DataFrame to BiqQuery"""
 
-    gcp_credentials_block = GcpCredentials.load("capstone-gcp-creds")
+    gcp_credentials_block = GcpCredentials.load("Your GCP bucket used in project") # gcp cloud storage name is to be used there
 
     df.to_gbq(
         destination_table="capstone_covid_data.covid_table",
-        project_id="capstone-project-379718",
+        project_id="Your GCP Project ID",
         credentials=gcp_credentials_block.get_credentials_from_service_account(),
         chunksize=500_000,
         if_exists="append",

@@ -36,7 +36,7 @@ def clean(df_covid: pd.DataFrame) -> pd.DataFrame:
 @task()
 def write_gcs(df_covid: pd.DataFrame) -> None:
     """Upload local parquet file to GCS"""
-    gcs_bucket = GcsBucket.load("capstone-bucket")
+    gcs_bucket = GcsBucket.load("Your GCP bucket used in project") # gcp cloud storage name is to be used there
     gcs_bucket.upload_from_dataframe(df=df_covid, to_path="data/covid_data.csv", serialization_format='csv')
     return
 
