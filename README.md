@@ -58,6 +58,6 @@ Furthermore, I am interested in the vaccination rate in a worldwide comparison a
 
 ## Visualizations
 
-The interactive dashboards [can be found here](https://lookerstudio.google.com/reporting/7e28d737-d0e6-4b7e-a6b8-6edb1aab7137/page/MLmOD).
-![alt text](photo)
+The interactive dashboards [can be found here](https://lookerstudio.google.com/reporting/91cbd9e3-ed59-4b01-a4ff-2b97d8ece417).
+![alt text](https://raw.githubusercontent.com/sandeep92134/DTC-DE-ZOOMcamp_project/main/images/dashbaord.png)
 
